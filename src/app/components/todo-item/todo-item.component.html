@@ -1,0 +1,6 @@
+<section class="todo-item">
+  <p>Tarea: {{ todo?.text }}</p>
+  <p *ngIf="todo?.completed">Esta completada</p>
+  <p *ngIf="!todo?.completed">No esta completada</p>
+  <button (click)="deleteTodoFromLS()">Eliminar</button>
+</section>

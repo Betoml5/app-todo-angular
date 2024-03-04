@@ -19,7 +19,10 @@
       {{ todo.text }}
     </span>
 
-    <button>Completar</button>
+    <div>
+      <button (click)="removeTodo(todos.indexOf(todo))">Eliminar</button>
+      <a routerLink="todo/{{ todo.text.replaceAll(' ', '-') }}">Ver detalles</a>
+    </div>
   </div>
   }
   <!-- <div class="todo-item" *ngFor="let todo of todos; let i = index">
