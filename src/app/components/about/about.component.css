@@ -1,0 +1,15 @@
+section {
+  padding: 50px;
+  background: #f8f8f8;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #000;
+  font-size: 38px;
+  margin-bottom: 20px;
+  text-align: center;
+}

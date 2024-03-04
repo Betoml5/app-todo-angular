@@ -1,0 +1,86 @@
+.todo-container {
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 20px;
+  width: 50%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.todo-container input[type="text"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.todo-container button {
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #ff2e63;
+  color: #fff;
+  cursor: pointer;
+}
+
+.todo-list {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.todo-list .todo-item {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #f2f2f2;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item button,
+a {
+  background-color: #ff2e63;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.todo-item button:hover {
+  background-color: #ff4f8c;
+}
+
+.todo-item button:active {
+  background-color: #ff2e63;
+}
+
+.todo-item input[type="checkbox"] {
+  padding: 10px;
+  margin: 10px 0;
+}
